@@ -34,6 +34,6 @@ func main() {
 		max = max + arr[i]
 	}
 
-	// Imprimo
+	// Imprimo o valor minimo é máximo
 	fmt.Println(min, max)
 }
