@@ -13,7 +13,7 @@ func main() {
 	// Crio o array com o tamanho desejado do input
 	arr := make([]int, input)
 
-	// Preencho o array
+	// Preencho os indices do array
 	for i := 0; i < input; i++ {
 		fmt.Scan(&arr[i])
 	}
