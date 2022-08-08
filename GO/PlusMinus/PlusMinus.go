@@ -1,5 +1,3 @@
-// Link do desafio: https://www.hackerrank.com/challenges/plus-minus/problem
-
 package main
 
 import "fmt"
