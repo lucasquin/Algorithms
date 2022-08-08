@@ -1,5 +1,3 @@
-// Link do desafio: https://www.hackerrank.com/challenges/mini-max-sum/problem
-
 package main
 
 import (
@@ -9,7 +7,7 @@ import (
 
 func main() {
 
-	// Declaro o tamanhdo do array e preencho ele com meu input
+	// Declaro o tamanho do array e preencho ele com meu input
 	var arr [5]int
 	var min int
 	var max int
@@ -31,7 +29,7 @@ func main() {
 		return arr[i] > arr[j]
 	})
 
-	// Somo os 4 primeiros numeros menores
+	// Somo os 4 primeiros numeros maiores
 	for i := 0; i < 4; i++ {
 		max = max + arr[i]
 	}
