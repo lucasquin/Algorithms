@@ -1,5 +1,3 @@
-// Link do desafio: https://www.hackerrank.com/challenges/sparse-arrays/problem
-
 package main
 
 import (
@@ -39,7 +37,7 @@ func main() {
 				r++
 			}
 		}
-		// Imprimo o resultado da contagemde cada indice do array de query
+		// Imprimo o resultado da contagem de cada indice do array de query
 		fmt.Println(r)
 		// Zero o resultado para ir para o proximo
 		r = 0
