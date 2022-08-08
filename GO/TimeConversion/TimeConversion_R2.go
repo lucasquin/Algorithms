@@ -1,5 +1,3 @@
-// Link do desafio: https://www.hackerrank.com/challenges/time-conversion/problem
-
 package main
 
 import (
